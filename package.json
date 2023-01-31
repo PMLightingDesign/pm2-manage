@@ -1,0 +1,27 @@
+{
+  "name": "pm2-manage",
+  "version": "1.0.0",
+  "description": "A small tool to allow end users to restart a local PM2 based stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PMLightingDesign/pm2-manage.git"
+  },
+  "keywords": [
+    "PM2",
+    "server",
+    "restert"
+  ],
+  "author": "Peter Milo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PMLightingDesign/pm2-manage/issues"
+  },
+  "homepage": "https://github.com/PMLightingDesign/pm2-manage#readme",
+  "dependencies": {
+    "pm2": "^5.2.2"
+  }
+}
