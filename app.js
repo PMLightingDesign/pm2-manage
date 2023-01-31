@@ -76,7 +76,7 @@ function status(res) {
                 res.end();
             } else {
                 res.writeHead(200);
-                res.end(JSON.stringify(list));
+                res.end(JSON.stringify(list, null, 2));
             }
         });
     } else {
